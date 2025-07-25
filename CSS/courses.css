@@ -1,0 +1,17 @@
+body{
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+html, body{
+    overflow-x: hidden;
+}
+
+.courses h1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 4em;
+}

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en" data-aos="zoom-in">
+    <head data-aos="zoom-in">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mahmoud Gamel - Checkout</title>
+        <link rel="stylesheet" href="CSS/checkout.css">
+        <link rel="icon" href="Images/Mahmo__1_-removebg-preview.png" type="image/png">
+        <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    </head>
+    <body data-aos="zoom-in">
+        <!-- Header -->
+        <header>
+            <div class="nav">
+                <a href="index.html" data-aos="zoom-in" class="logo">
+                    <img src="Images/Mahmo__1_-removebg-preview.png" alt="Mahmoud Gamel Logo" data-aos="zoom-in" class="logo"/>
+                </a>
+                <a href="signup.html" data-aos="zoom-in" class="nav_btn">Get Started</a>
+            </div>
+        </header>
+
+        <main class="checkout-main" data-aos="zoom-in">
+            <div class="checkout-container" data-aos="zoom-in">
+                <!-- Checkout Form Section -->
+                <div class="checkout-form-section" data-aos="zoom-in">
+                    <h2 data-aos="zoom-in">Checkout</h2>
+                    
+                    <!-- Progress Steps -->
+                    <div class="checkout-progress" data-aos="zoom-in">
+                        <div class="progress-step active" data-aos="zoom-in">
+                            <div class="step-number" data-aos="zoom-in">1</div>
+                            <span data-aos="zoom-in">Shipping</span>
+                        </div>
+                        <div class="progress-line" data-aos="zoom-in"></div>
+                        <div class="progress-step" data-aos="zoom-in">
+                            <div class="step-number" data-aos="zoom-in">2</div>
+                            <span data-aos="zoom-in">Payment</span>
+                        </div>
+                        <div class="progress-line" data-aos="zoom-in"></div>
+                        <div class="progress-step" data-aos="zoom-in">
+                            <div class="step-number" data-aos="zoom-in">3</div>
+                            <span data-aos="zoom-in">Review</span>
+                        </div>
+                    </div>
+
+                    <!-- Shipping Information -->
+                    <div class="form-section" id="shippingSection" data-aos="zoom-in">
+                        <h3 data-aos="zoom-in"><i class="fas fa-shipping-fast"></i> Shipping Information</h3>
+                        <form id="shippingForm" data-aos="zoom-in">
+                            <div class="form-row" data-aos="zoom-in">
+                                <div class="form-group" data-aos="zoom-in">
+                                    <label for="firstName" data-aos="zoom-in">First Name *</label>
+                                    <input type="text" id="firstName" name="firstName" required data-aos="zoom-in">
+                                </div>
+                                <div class="form-group" data-aos="zoom-in">
+                                    <label for="lastName" data-aos="zoom-in">Last Name *</label>
+                                    <input type="text" id="lastName" name="lastName" required data-aos="zoom-in">
+                                </div>
+                            </div>
+                            <div class="form-group" data-aos="zoom-in">
+                                <label for="email" data-aos="zoom-in">Email Address *</label>
+                                <input type="email" id="email" name="email" required data-aos="zoom-in">
+                            </div>
+                            <div class="form-group" data-aos="zoom-in">
+                                <label for="phone" data-aos="zoom-in">Phone Number *</label>
+                                <input type="tel" id="phone" name="phone" required data-aos="zoom-in">
+                            </div>
+                            <div class="form-group" data-aos="zoom-in">
+                                <label for="address" data-aos="zoom-in">Street Address *</label>
+                                <input type="text" id="address" name="address" required data-aos="zoom-in">
+                            </div>
+                            <div class="form-row" data-aos="zoom-in">
+                                <div class="form-group" data-aos="zoom-in">
+                                    <label for="city" data-aos="zoom-in">City *</label>
+                                    <input type="text" id="city" name="city" required data-aos="zoom-in">
+                                </div>
+                                <div class="form-group" data-aos="zoom-in">
+                                    <label for="state" data-aos="zoom-in">State/Province *</label>
+                                    <input type="text" id="state" name="state" required data-aos="zoom-in">
+                                </div>
+                            </div>
+                            <div class="form-row" data-aos="zoom-in">
+                                <div class="form-group" data-aos="zoom-in">
+                                    <label for="zipCode" data-aos="zoom-in">ZIP/Postal Code *</label>
+                                    <input type="text" id="zipCode" name="zipCode" required data-aos="zoom-in">
+                                </div>
+                                <div class="form-group" data-aos="zoom-in">
+                                    <label for="country" data-aos="zoom-in">Country *</label>
+                                    <select id="country" name="country" required data-aos="zoom-in">
+                                        <option value="">Select Country</option>
+                                        <option value="US">United States</option>
+                                        <option value="CA">Canada</option>
+                                        <option value="UK">United Kingdom</option>
+                                        <option value="AU">Australia</option>
+                                        <option value="DE">Germany</option>
+                                        <option value="FR">France</option>
+                                        <option value="IT">Italy</option>
+                                        <option value="ES">Spain</option>
+                                        <option value="NL">Netherlands</option>
+                                        <option value="BE">Belgium</option>
+                                        <option value="CH">Switzerland</option>
+                                        <option value="AT">Austria</option>
+                                        <option value="SE">Sweden</option>
+                                        <option value="NO">Norway</option>
+                                        <option value="DK">Denmark</option>
+                                        <option value="FI">Finland</option>
+                                        <option value="PL">Poland</option>
+                                        <option value="CZ">Czech Republic</option>
+                                        <option value="HU">Hungary</option>
+                                        <option value="RO">Romania</option>
+                                        <option value="BG">Bulgaria</option>
+                                        <option value="HR">Croatia</option>
+                                        <option value="SI">Slovenia</option>
+                                        <option value="SK">Slovakia</option>
+                                        <option value="LT">Lithuania</option>
+                                        <option value="LV">Latvia</option>
+                                        <option value="EE">Estonia</option>
+                                        <option value="IE">Ireland</option>
+                                        <option value="PT">Portugal</option>
+                                        <option value="GR">Greece</option>
+                                        <option value="CY">Cyprus</option>
+                                        <option value="MT">Malta</option>
+                                        <option value="LU">Luxembourg</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                    <!-- Payment Information -->
+                    <div class="form-section hidden" id="paymentSection" data-aos="zoom-in">
+                        <h3 data-aos="zoom-in"><i class="fas fa-credit-card"></i> Payment Information</h3>
+                        <form id="paymentForm" data-aos="zoom-in">
+                            <div class="form-group" data-aos="zoom-in">
+                                <label for="cardNumber" data-aos="zoom-in">Card Number *</label>
+                                <div class="card-input" data-aos="zoom-in">
+                                    <input type="text" id="cardNumber" name="cardNumber" placeholder="1234 5678 9012 3456" maxlength="19" required data-aos="zoom-in">
+                                    <i class="fas fa-credit-card" data-aos="zoom-in"></i>
+                                </div>
+                            </div>
+                            <div class="form-row" data-aos="zoom-in">
+                                <div class="form-group" data-aos="zoom-in">
+                                    <label for="expiryDate" data-aos="zoom-in">Expiry Date *</label>
+                                    <input type="text" id="expiryDate" name="expiryDate" placeholder="MM/YY" maxlength="5" required data-aos="zoom-in">
+                                </div>
+                                <div class="form-group" data-aos="zoom-in">
+                                    <label for="cvv" data-aos="zoom-in">CVV *</label>
+                                    <input type="text" id="cvv" name="cvv" placeholder="123" maxlength="4" required data-aos="zoom-in">
+                                </div>
+                            </div>
+                            <div class="form-group" data-aos="zoom-in">
+                                <label for="cardName" data-aos="zoom-in">Name on Card *</label>
+                                <input type="text" id="cardName" name="cardName" required data-aos="zoom-in">
+                            </div>
+                            <div class="form-group" data-aos="zoom-in">
+                                <label class="checkbox-label" data-aos="zoom-in">
+                                    <input type="checkbox" id="saveCard" name="saveCard" data-aos="zoom-in">
+                                    <span class="checkmark" data-aos="zoom-in"></span>
+                                    Save this card for future purchases
+                                </label>
+                            </div>
+                        </form>
+                    </div>
+
+                    <!-- Review Section -->
+                    <div class="form-section hidden" id="reviewSection" data-aos="zoom-in">
+                        <h3 data-aos="zoom-in"><i class="fas fa-check-circle"></i> Review Your Order</h3>
+                        <div class="review-content" data-aos="zoom-in">
+                            <div class="review-shipping" data-aos="zoom-in">
+                                <h4 data-aos="zoom-in">Shipping Information</h4>
+                                <div id="reviewShippingInfo" data-aos="zoom-in"></div>
+                            </div>
+                            <div class="review-payment" data-aos="zoom-in">
+                                <h4 data-aos="zoom-in">Payment Information</h4>
+                                <div id="reviewPaymentInfo" data-aos="zoom-in"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Navigation Buttons -->
+                    <div class="checkout-navigation" data-aos="zoom-in">
+                        <button type="button" id="prevBtn" class="nav-btn secondary" style="display: none;" data-aos="zoom-in">Previous</button>
+                        <button type="button" id="nextBtn" class="nav-btn primary" data-aos="zoom-in">Continue to Payment</button>
+                        <button type="button" id="placeOrderBtn" class="nav-btn primary" style="display: none;" data-aos="zoom-in">Place Order</button>
+                    </div>
+                </div>
+
+                <!-- Order Summary Section -->
+                <div class="order-summary-section" data-aos="zoom-in">
+                    <h3 data-aos="zoom-in">Order Summary</h3>
+                    <div class="order-items" id="orderItems" data-aos="zoom-in">
+                        <!-- Order items will be populated by JavaScript -->
+                    </div>
+                    <div class="order-totals" data-aos="zoom-in">
+                        <div class="total-row" data-aos="zoom-in">
+                            <span data-aos="zoom-in">Subtotal:</span>
+                            <span data-aos="zoom-in">$<span id="orderSubtotal" data-aos="zoom-in">0.00</span></span>
+                        </div>
+                        <div class="total-row" data-aos="zoom-in">
+                            <span data-aos="zoom-in">Shipping:</span>
+                            <span id="orderShipping" data-aos="zoom-in">Free Shipping</span>
+                        </div>
+                        <div class="total-row" data-aos="zoom-in">
+                            <span data-aos="zoom-in">Tax:</span>
+                            <span data-aos="zoom-in">$<span id="orderTax" data-aos="zoom-in">0.00</span></span>
+                        </div>
+                        <div class="total-row final-total" data-aos="zoom-in">
+                            <span data-aos="zoom-in">Total:</span>
+                            <span data-aos="zoom-in">$<span id="orderTotal" data-aos="zoom-in">0.00</span></span>
+                        </div>
+                    </div>
+                    <div class="security-badge" data-aos="zoom-in">
+                        <i class="fas fa-shield-alt" data-aos="zoom-in"></i>
+                        <span data-aos="zoom-in">Secure Checkout</span>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer_content">
+                <div class="footer_links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="catalog.html">Catalog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="signup.html">Account</a></li>
+                    </ul>
+                </div>
+                <div class="footer_contact">
+                    <h3>Contact Us</h3>
+                    <a href="mailTo:arivostyle@gmail.com"><p>Email: arivostyle@gmail.com</p></a>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                duration: 1200,
+            });
+        </script>
+        <script src="JS/checkout.js"></script>
+    </body>
+</html>
